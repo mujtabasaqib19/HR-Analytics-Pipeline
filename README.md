@@ -10,6 +10,7 @@ This project demonstrates an end-to-end HR data analytics pipeline using modern 
 - **Airflow** – Data orchestration (ETL from Bronze → Silver → Gold layers)
 - **Snowflake** – Cloud data warehouse for analytical querying
 - **Power BI** – Interactive dashboard for business users
+- **Docker** – Containerization for PostgreSQL, Airflow, and pgAdmin services
 
 ---
 
@@ -103,4 +104,4 @@ Dashboard connects live to **Snowflake** for reporting.
 - Use warehouse: `COMPUTE_WH`
 - Load tables into Power BI model and publish dashboard
 
-
+![Dashboard](./assets/Dashboard.png)
